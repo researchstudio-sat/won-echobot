@@ -1,7 +1,7 @@
 package won.bot.echo.impl;
 
-import won.bot.echo.impl.action.CreateEchoAtomWithSocketsAction;
-import won.bot.echo.impl.action.RespondWithEchoToMessageAction;
+import won.bot.echo.action.CreateEchoAtomWithSocketsAction;
+import won.bot.echo.action.RespondWithEchoToMessageAction;
 import won.bot.framework.bot.base.EventBot;
 import won.bot.framework.eventbot.EventListenerContext;
 import won.bot.framework.eventbot.action.EventBotAction;

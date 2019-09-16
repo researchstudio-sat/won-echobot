@@ -8,7 +8,7 @@
  * KIND, either express or implied. See the License for the specific language
  * governing permissions and limitations under the License.
  */
-package won.bot.echo.impl.action;
+package won.bot.echo.action;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.jena.query.Dataset;
