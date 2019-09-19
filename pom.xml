@@ -67,7 +67,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.1.7.RELEASE</version>
                 <configuration>
-                    <mainClass>won.bot.echo.EchoBotApp</mainClass>
+                    <mainClass>won.bot.echobot.EchoBotApp</mainClass>
                 </configuration>
                 <executions>
                     <execution>

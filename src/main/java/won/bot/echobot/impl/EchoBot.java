@@ -1,7 +1,8 @@
-package won.bot.echo.impl;
+package won.bot.echobot.impl;
 
-import won.bot.echo.action.CreateEchoAtomWithSocketsAction;
-import won.bot.echo.action.RespondWithEchoToMessageAction;
+import won.bot.echobot.action.ConnectWithAssociatedAtomAction;
+import won.bot.echobot.action.CreateEchoAtomWithSocketsAction;
+import won.bot.echobot.action.RespondWithEchoToMessageAction;
 import won.bot.framework.bot.base.EventBot;
 import won.bot.framework.eventbot.EventListenerContext;
 import won.bot.framework.eventbot.action.EventBotAction;
@@ -9,7 +10,6 @@ import won.bot.framework.eventbot.action.impl.LogAction;
 import won.bot.framework.eventbot.action.impl.MultipleActions;
 import won.bot.framework.eventbot.action.impl.RandomDelayedAction;
 import won.bot.framework.eventbot.action.impl.matcher.RegisterMatcherAction;
-import won.bot.framework.eventbot.action.impl.wonmessage.ConnectWithAssociatedAtomAction;
 import won.bot.framework.eventbot.bus.EventBus;
 import won.bot.framework.eventbot.event.impl.atomlifecycle.AtomCreatedEvent;
 import won.bot.framework.eventbot.event.impl.lifecycle.ActEvent;
